@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <div class="container">
+  
+    <div class="row">
+      <div class="col-md-12">
+      	<div class="header">
+        <h1 class="text-center text-uppercase title">Clare Louise Munson</h1>
+        <h3 class="text-center sub-title">Web Developer and Friendship Bracelet Enthusiast</h3>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+      	<div class="intro">
+          <p>Welcome to my Portfolio page that I created while doing Udacity's Intro to HTML and CSS course. It was hosted on Github after working through Udacity's How to use Git and Github course.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-md-12">
+      <img src="images/bracelets3.png" class="img-responsive">
+    </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-md-12">
+      <div class="featured">	
+      <h2 class="text-center title">Featured Work</h2>
+      <h3 class="text-center sub-title">Click images for more information</h3>
+      </div>
+    </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/adventure_medium.png" class="img-responsive" data-toggle="modal" data-target="#project1">
+        <h3>Adventures in Computer Science</h3>
+        <p><a href="http://adventuresincompsci.appspot.com">Link to project</a></p>
+      </div>
+      
+      <div class="col-md-6">
+        <img src="images/crafting_medium.png" class="img-responsive image" data-toggle="modal" data-target="#project2">
+        <h3>Crafting Logic</h3>
+        <p><a href="http://craftinglogic.appspot.com">Link to project</a></p>
+      </div>
+      
+    </div>
+   
+
+  </div>
+  
+  <!-- Modal -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myModalLabel">Adventures in Computer Science</h4>
+ 	     </div>
+ 	     <div class="modal-body">
+ 	       <img class="img-responsive" src="images/adventure_medium.png">
+	        <p>A year ago I took Udacity's online web development course. This course was about using Python and Google App Engine to create web applications. This website is based on the 
+	        things I learnt in the course.</p>
+	        <p>It has a Caesar Cypher page, an Ascii art page and a Blog. Both the Ascii art and the blog make use of a database and basic sql to retrieve and sort the data from the 
+	        databases.</p>
+	        <p>The Ascii art page also has a map generated using the Google maps api. It shows the locations of people when they submit some art.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myModalLabel">Crafting Logic</h4>
+ 	     </div>
+ 	     <div class="modal-body">
+ 	       <img class="img-responsive" src="images/crafting_medium.png">
+	        <p>After creating my Adventures website I felt I needed a project that was more individual to me and one that could expand as I learn more. I have always enjoyed a variety of crafts, 
+	        particularly those that are underpinned by patterns and logic.</p>
+	        <p>As well as a blog like my Adventures site it also has a gallery and moderated comments.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+  
+  </body>
+</html>
